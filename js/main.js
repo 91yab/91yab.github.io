@@ -34,4 +34,12 @@ $(function () {
 
   $('#bgndVideo').YTPlayer();
 
+  $('.utb_movie .left').on('click', function () {
+    $('#bgndVideo').YTPPause()
+  })
+
+  $('.utb_movie .right').on('click', function () {
+    $('#bgndVideo').YTPPlay()
+  })
+
 });

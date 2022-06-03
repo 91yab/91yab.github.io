@@ -325,3 +325,115 @@
     margin: 0 0 0 20px;
     vertical-align: middle;
 }
+
+.product_list {
+    position: relative;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.product_list h2 {
+    font-size: 25px;
+    font-weight: 700;
+    margin: 0 0 10px 0;
+}
+
+.product_list p {
+    font-size: 15px;
+    font-weight: 300;
+    margin: 0 0 30px 0;
+}
+
+.product_list figure {
+    padding: 0 15px;
+}
+
+.product_list figure .box {
+    margin: 0 0 10px 0;
+}
+
+.product_list figure strong {
+    display: block;
+    margin: 0 0 10px 0;
+}
+
+.product_list figure a {
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    padding: 5px 20px;
+}
+
+.product_list .container {
+    width: 1230px;
+    margin: 0 auto;
+}
+
+.product_list .arrows i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    font-size: 30px;
+}
+
+.product_list .arrows .left {
+    margin-left: -700px;
+}
+
+.product_list .arrows .right {
+    margin-left: 700px;
+}
+
+.product_list .slick-dots {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.product_list .slick-dots li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: #333;
+    border-radius: 50%;
+    margin: 0 2px;
+}
+
+.product_list .slick-dots li.slick-active {
+    background: #f00;
+}
+
+.product_list .slick-dots button {
+    display: none;
+}
+
+
+.utb_movie {
+    padding: 150px 0;
+    color: #fff;
+    text-align: center;
+}
+
+.utb_movie h2 {
+    font-size: 25px;
+    font-weight: 700;
+    margin: 0 0 10px 0;
+}
+
+.utb_movie p {
+    font-size: 15px;
+    font-weight: 300;
+    margin: 0 0 30px 0;
+}
+
+.utb_movie i {
+    font-size: 20px;
+    padding: 10px;
+    background: #333;
+    border-radius: 50%;
+    margin: 0 5px;
+    vertical-align: middle;
+}
